@@ -3,8 +3,8 @@ import MapContainer from './components/map/Map.jsx';
 
 function App() {
   return (
-    <div>
-      <MapContainer />
+    <div data-testid="map">
+      <MapContainer/>
     </div>
   );
 }
