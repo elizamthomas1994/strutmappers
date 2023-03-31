@@ -5,28 +5,28 @@ function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-      <h1>mapStrutters</h1>
+      <h1>Strutmappers</h1>
       {/* </header> */}
       <nav>
-        <ul>
+        {/* <ul>
           <li>
             <a href="#">Take me home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">Get to work</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#">Toms' place</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">my parents</a>
           </li>
-        </ul>
+        </ul> */}
         <div className="button-group">
-          <button>Button 1</button>
-          <button>Button 2</button>
-          <button>Button 3</button>
-          <button>Button 4</button>
+          <button>Take me home</button>
+          <button>Get to work</button>
+          <button>Toms' place</button>
+          <button>my parents</button>
         </div>
       </nav>
     </div>
